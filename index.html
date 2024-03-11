@@ -12,7 +12,19 @@
         <tr>
           <td width="35%">
             <center>
-              <img width="60%" src="/passport_pic.png" alt="" />
+              <!-- <img width="60%" src="/passport_pic.png" alt="" /> -->
+              <picture>
+                <source
+                  media="(min-width: 767px)"
+                  srcset="/passport_pic1.png"
+                />
+                <source media="(min-width: 465px)" srcset="/passport_pic.png" />
+                <img
+                  src="/passport_pic1.png"
+                  alt="picture"
+                  style="width: 60%; max-width: 100%; height: auto"
+                />
+              </picture>
             </center>
             <h1>Ashikul Islam Nayeem</h1>
 
